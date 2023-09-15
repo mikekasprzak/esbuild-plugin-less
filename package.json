@@ -1,6 +1,6 @@
 {
-  "name": "esbuild-plugin-less",
-  "version": "1.0.0",
+  "name": "@mikekasprzak/esbuild-plugin-less",
+  "version": "1.0.1",
   "description": "esbuild plugin for less files",
   "repository": "https://github.com/iam-medvedev/esbuild-plugin-less.git",
   "homepage": "https://github.com/iam-medvedev/esbuild-plugin-less#readme",
@@ -54,7 +54,7 @@
     "esbuild": "^0.19.2",
     "git-cz": "4.9.0",
     "husky": "^8.0.3",
-    "lint-staged": "14.0.0",
+    "lint-staged": "^14.0.0",
     "prettier": "3.0.2",
     "semantic-release": "21.0.7",
     "ts-node": "10.9.1",
@@ -67,7 +67,8 @@
   },
   "dependencies": {
     "@types/less": "^3.0.3",
-    "less": "^4.2.0"
+    "less": "^4.2.0",
+    "yarn": "^1.22.19"
   },
   "keywords": [
     "esbuild",
